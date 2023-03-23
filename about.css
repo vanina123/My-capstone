@@ -1,0 +1,168 @@
+.about {
+  background-color: #e7e0e0;
+  color: #252b38;
+  padding: 5rem 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-text {
+  color: #e63d09;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.about-text1 {
+  color: #e63d09;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.about-p {
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #f5efef;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  color: #97989b;
+}
+
+.emailBtn {
+  text-decoration: underline;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.emailBtn i {
+  margin-left: 0.3rem;
+}
+
+.emailBtn:hover {
+  color: var(--theme);
+}
+
+.news {
+  padding: 3rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #f5efef;
+}
+
+.new-head {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new-head1 {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: #252b38;
+}
+
+.new-p {
+  margin-bottom: 2rem;
+  max-width: 40rem;
+  color: #97989b;
+}
+
+.new-logo {
+  border: 1px solid #e7e0e0;
+}
+
+.n-logo {
+  width: 337px;
+  height: 255px;
+}
+
+.next-about {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.next-head {
+  margin-bottom: 2px;
+}
+
+.next-h3 {
+  margin-bottom: 0.2rem !important;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin-top: -3rem;
+}
+
+.about-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 38%;
+  padding: 4rem 1rem;
+  background-color: rgba(236, 82, 66, 0.7);
+  margin-left: 142px;
+  height: 70px;
+}
+
+#about-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic1 {
+  color: #fff;
+  position: relative;
+}
+
+.pic-img1 {
+  background-image: url("./image/girl2.png");
+  background-position: center;
+  background-size: 174px 146px;
+  background-repeat: no-repeat;
+}
+
+#pic-img2 {
+  background-image: url("./image/girl3.png");
+  background-position: center;
+  background-size: 174px 146px;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .about-pic {
+    width: 15%;
+    margin-left: 573px;
+    height: 70px;
+  }
+
+  #about-2 {
+    display: grid;
+    flex-direction: row;
+  }
+
+  .pic-img1 {
+    background-position: center;
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+  }
+
+  #pic-img2 {
+    background-position: center;
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+  }
+}
