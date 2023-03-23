@@ -73,7 +73,7 @@
 
 - [Live Demo Link](https://vanina123.github.io/My-capstone/)
 
-<!-- - [Live loom Link](https://www.loom.com/share/90eebbf3a1e54fc1913e1191203e40c2) -->
+- [Live loom Link](https://www.loom.com/share/883b4e536c2b40a4b7f6a275eb62db17)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
