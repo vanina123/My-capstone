@@ -465,6 +465,7 @@ body {
   }
 
   .bar-page {
+    background-color: red;
     display: block;
     display: flex;
     justify-content: flex-end;
