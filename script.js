@@ -1,3 +1,5 @@
+// hambuger dispaly
+
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-items');
 
@@ -60,12 +62,12 @@ const cards = [
   },
 ];
 
-button.addEventListener('click', () => {});
+// display speaker
 
 const speak = document.querySelector('#speak');
 for (let i = 0; i < cards.length; i += 1) {
   speak.innerHTML += `
-   <div class="spk-talk">
+   <div class="${i===0 || i===1 || window.innerWidth >765 ?'spk-talk':"spk-talk hidden" }">
       <div class="spk-img">
           <img src="${cards[i].image}" alt="">
       </div>
@@ -80,3 +82,13 @@ for (let i = 0; i < cards.length; i += 1) {
    </div>
   `;
 }
+
+// active btn
+
+button.addEventListener('click',()=>{
+const facilitators = document.querySelectorAll('.spk-talk')
+facilitators.forEach((facilitator)=>{
+  facilitator.classList.remove('hidden')
+})
+})
+

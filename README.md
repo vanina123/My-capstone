@@ -3,7 +3,7 @@
   <img src="images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My Capstone project</b></h3>
+  <h3><b>My Capstone</b></h3>
 
 </div>
 
@@ -35,12 +35,12 @@
 - [📝 License](#license)
 
 
-# 📖 [My-capstone1] <a name="about-project">https://github.com/vanina123/My-capstone</a>
+# 📖 [My-capstone] <a name="about-project">https://github.com/vanina123/My-capstone</a>
 
  # Brief
   
 
-**[Girl-Education]** My capstone1 project is about Gild child education in Africa, we ought to give our girl children the privellege of tech education
+**[Girl-Education]** My capstone project is about Gild child education in Africa, we ought to give our girl children the privellege of tech education
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -49,24 +49,31 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+<details>
+  <summary>HTML</summary>
+</details>
+
+<details>
+  <summary>CSS</summary>
+</details>
+<details>
+  <summary>Javascript</summary>
+</details>
+
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]** My-capstone: built with CSS, Html and JavaScript.
-- **[key_feature_2]** My-capstone: Mobile Version of both the Home page and About page.
-- **[key_feature_3]** My-capstone: Desktop Version of both the Home page and About page.
+- **[Mobile version of Home and about page]** 
+- **[Desktop version of Home and about page]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](https://vanina123.github.io/My-capstone/)
 
-- [Live Demo Link](https://vanina123.github.io/capstone1/)
-
-- [Live loom Link](https://www.loom.com/share/90eebbf3a1e54fc1913e1191203e40c2)
+<!-- - [Live loom Link](https://www.loom.com/share/90eebbf3a1e54fc1913e1191203e40c2) -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -74,18 +81,33 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To run this project clone it with `git clone git@github.com:vanina123/My-capstone.git`
+Step 1:To run this project clone it with `git clone git@github.com:vanina123/My-capstone.git`
 then run from a browser
 
 To get a local copy up and running, follow these steps.
+
+Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in browser.
+
+Prerequisites
+In order to run this project you need:
+
+A code editor that is VIsual studio code
 
 ### Prerequisites
 
 In order to run this project you need:
 - A computer
-- A code editor(Visual studio code)
-- Knowlegde of html, css and js.
+- A code editor(VSC)
+- A web browser for live Demo
 
+### Setup
+
+Clone this repository to your desired folder:
+
+  cd my-folder
+  git clone https://github.com/vanina123/My-capstone-git
 
 ### Install
 
@@ -114,9 +136,9 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]** Will love to add more styling.
-- [ ] **[new_feature_2]** More implementation of javascript
-- [ ] **[new_feature_3]** And aslo validate form.
+- [ ] **[Will love to add more styling.]** 
+- [ ] **[More validate form.]** 
+- [ ] **[ And lastly more implementation of javascript]** 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,6 +169,5 @@ I would like to thank my team mates for for their timeless support and encourage
 
 This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
