@@ -7,6 +7,7 @@
   "version": "1.0.0",
   "main": "script.js",
   "dependencies": {
+    "@hint/utils-dom": "^2.2.3",
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
     "acorn": "^8.8.2",
