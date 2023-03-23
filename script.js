@@ -67,7 +67,7 @@ const cards = [
 const speak = document.querySelector('#speak');
 for (let i = 0; i < cards.length; i += 1) {
   speak.innerHTML += `
-   <div class="${i===0 || i===1 || window.innerWidth >765 ?'spk-talk':"spk-talk hidden" }">
+   <div class="${i === 0 || i === 1 || window.innerWidth > 765 ? 'spk-talk' : 'spk-talk hidden'}">
       <div class="spk-img">
           <img src="${cards[i].image}" alt="">
       </div>
@@ -85,10 +85,9 @@ for (let i = 0; i < cards.length; i += 1) {
 
 // active btn
 
-button.addEventListener('click',()=>{
-const facilitators = document.querySelectorAll('.spk-talk')
-facilitators.forEach((facilitator)=>{
-  facilitator.classList.remove('hidden')
-})
-})
-
+button.addEventListener('click', () => {
+  const facilitators = document.querySelectorAll('.spk-talk');
+  facilitators.forEach((facilitator) => {
+    facilitator.classList.remove('hidden');
+  });
+});

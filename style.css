@@ -136,7 +136,6 @@ body {
   margin-left: 20px;
 }
 
-
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -183,8 +182,6 @@ body {
 
 .content h1 {
   color: #e63d09;
-  -webkit-background-clip: text;
-  background-image: url(./images/font-color.jpg);
   font-weight: 900;
   font-size: 50px;
   line-height: 1;
@@ -336,7 +333,7 @@ body {
 }
 
 .spk-talk.hidden {
- display: none;
+  display: none;
 }
 
 .spk-img {
